@@ -13,7 +13,7 @@ function doPatch(rDom, patches) {
   finalPatches = patches
   rNodeWalk(rDom)
 }
-
+// test code
 function rNodeWalk(rNode) {
   // 取出补丁包中对应编号的补丁 （并不是每个对应编号都会有补丁包，也就是并不是每个节点都发生了变化）
   const rnPatch = finalPatches[rnIndex++],
